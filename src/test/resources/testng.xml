@@ -1,0 +1,31 @@
+<suite thread-count="1" verbose="1" name="Integra Automation">
+    <test name="LoginTest">
+        <classes>
+            <class name="TestRunner.LoginRunner"/>
+        </classes>
+    </test>
+    <test name="ZonePageTest">
+        <classes>
+            <class name="TestRunner.ZonePageRunner"/>
+        </classes>
+    </test>
+
+    <test name="DevicePageTest">
+        <classes>
+            <class name="TestRunner.DevicePageRunner"/>
+        </classes>
+    </test>
+
+    <test name="UserPageTest">
+        <classes>
+            <class name="TestRunner.AllUserPageRunner"/>
+        </classes>
+    </test>
+
+
+    <test name="DeviceCountCheck">
+        <classes>
+            <class name="TestRunner.DeviceCountMatchRunner"/>
+        </classes>
+    </test>
+</suite>
